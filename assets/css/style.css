@@ -55,6 +55,9 @@ body {
     display: none;
   }
   
+  .white {
+    background: beige;
+  }
   
   @media print, screen and (min-width: 64em) {
     .card-profile-stats .card-profile-stats-intro {
@@ -88,10 +91,9 @@ body {
 
   /* Card */
 
-  
-.product-card {
-    background-color: #fefefe;
-    border: 1px solid #e6e6e6;
+  .product-card {
+    background-color: beige;
+    border: 4px solid beige;
     padding: 1rem;
     margin-bottom: 1.5rem;
   }
@@ -111,43 +113,20 @@ body {
   }
   
   .product-card-desc {
-    color: #8a8a8a;
+    color: black;
     display: block;
     font-family: 'Open sans', sans-serif;
     font-size: 0.85rem;
   }
   
-  .product-card-price {
-    color: #3e3e3e;
-    display: inline-block;
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-top: 0.8rem;
-  }
-  
-  .product-card-sale {
-    color: #cacaca;
-    display: inline-block;
-    font-size: 0.85rem;
-    margin-left: 0.3rem;
-    text-decoration: line-through;
-  }
-  
-  .product-card-colors {
-    display: block;
-    margin-top: 0.8rem;
-  }
-  
-  .product-card-color-option {
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-  }
-  
-  
-  
-  
 
+  .imgs {
+    height: 180px;
+    width: 300px;
+  }
+  
+  
+  
 /* Footer */
 .social-footer {
     padding: 1rem;
