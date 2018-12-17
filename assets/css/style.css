@@ -4,6 +4,7 @@ body {
     background: url(../images/wallpaper.jpg);
     color: black;
     font-weight: bold;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Profile Stats */
@@ -54,6 +55,14 @@ body {
   .card-profile-stats .card-profile-stats-more .card-profile-stats-more-content {
     display: none;
   }
+
+  hr {
+    border-bottom: 3px solid beige;
+}
+
+.cursor {
+  color: black;
+}
   
   .white {
     background: beige;
@@ -104,7 +113,7 @@ body {
   }
   
   .product-card-title {
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 0.9rem;
     font-weight: 600;
     line-height: 1.45rem;
@@ -115,7 +124,7 @@ body {
   .product-card-desc {
     color: black;
     display: block;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 0.85rem;
   }
   
