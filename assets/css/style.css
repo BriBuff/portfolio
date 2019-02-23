@@ -1,7 +1,7 @@
 /* Body */
 
 body {
-    background: url(../images/wallpaper.jpg);
+    background: url(../images/wallpaper.filter.jpg) repeat;
     color: black;
     font-weight: bold;
     font-family: 'Roboto Slab', serif;
